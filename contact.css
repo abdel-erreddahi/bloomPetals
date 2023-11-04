@@ -1,0 +1,37 @@
+.h1 {
+    background-color: #808080;
+    display: flex;
+    margin: auto;
+    border-radius: auto;
+    text-align: left;
+    width: auto;
+    height: 40px;
+    box-shadow: auto ;
+    color: black ;
+    align-items: center;
+    justify-content: space-around;
+    font-size: xx-large;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: auto ;
+    margin: 13%;
+    margin-top: 1cm;
+    background-color: ghostwhite;
+    font-size: medium;
+    background-image: url('backk.jpeg');
+}
+.light {
+    border-color: black;
+}
+.cont img {
+    width: 25px;
+    display:inline-block;
+    height: auto;
+    border-radius: 50%;
+    vertical-align: middle
+}
+      
+*{
+    font-family:Noto Serif ;
+}

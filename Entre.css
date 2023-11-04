@@ -1,0 +1,45 @@
+.h1 {
+background-color: #808080;
+display: flex;
+margin: auto;
+border-radius: auto;
+text-align: left;
+width: auto;
+height: 40px;
+box-shadow: auto ;
+color: black ;
+align-items: center;
+justify-content: space-around;
+font-size: xx-large;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: auto ;
+    margin: 13%;
+    margin-top: 1cm;
+    background-color: ghostwhite;
+    font-size: medium;
+    background-image: url('backk.jpeg');
+}
+h3 {
+    text-decoration: underline;
+}
+.propos img {
+    width: 25px;
+    display:inline-block;
+    height: auto;
+    border-radius: 50%;
+    vertical-align: middle
+}
+* {
+    font-family: Roboto Mono;
+}
+img {
+    width: 150px;
+    display:flexbox;
+    width: 130px;
+    height: 130px;
+}
+
+

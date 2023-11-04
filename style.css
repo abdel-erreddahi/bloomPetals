@@ -1,0 +1,120 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: auto ;
+    margin: 13%;
+    margin-top: 1cm;
+    background-color: ghostwhite;
+    font-size: medium;
+    background-image: url('backk.jpeg');
+}
+
+.flexbox{
+display: flex;
+margin: auto;
+border-radius: auto;
+text-align: left;
+width: auto;
+height: 40px;
+background-color: #808080;
+box-shadow: auto ;
+justify-content: space-around;
+color: black ;
+align-items: center
+}
+div.flexbox a{
+color:rgb(0, 0, 0);
+text-decoration: none;
+}
+h1{
+text-align: center ;
+font-family: fantasy;
+}
+*{
+    font-family: Roboto Mono;
+}
+img {
+    width: 150px;
+    display:flexbox;
+    width: 130px;
+    height: 130px;
+    
+}
+.aperçu{
+    display: flex ;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+}
+
+.aperçu img{
+    width: 24%;
+    object-fit: contain;
+}
+h3 {
+    white-space: nowrap;
+    content: " / "; 
+
+}
+.description {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: space-around ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 3%;
+  }
+  .read-more-state {
+    display: none;
+  }
+  
+  .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+  }
+  
+  .read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+  }
+  
+  .read-more-state ~ .read-more-trigger:before {
+    content: 'Show more';
+  }
+  
+  .read-more-state:checked ~ .read-more-trigger:before {
+    content: 'Show less';
+  }
+  
+  .read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: #4f3bbf;
+    font-size: .9em;
+    line-height: 2;
+    border: 1px solid #9a9a9a;
+    border-radius: .25em;
+  }
+  footer {
+    display: flex;
+margin: auto;
+border-radius: auto;
+text-align: left;
+width: auto;
+height: 40px;
+background-color: #808080;
+box-shadow: auto ;
+  }
+  .light {
+    border-color: black;
+  }
+  .description img {
+    width: 25px;
+    display:inline-block;
+    height: auto;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
